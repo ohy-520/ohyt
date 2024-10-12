@@ -15,6 +15,6 @@ spec:
       containers:
       - name: my-python-github-cicd-app
         image: my-python-github-cicd-app:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Never
         ports:
         - containerPort: 5000
